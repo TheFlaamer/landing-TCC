@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rapazes</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="tcc, robotica, bluetooth, arduino, braço robotico, braco, android, appinventor">
+    <meta name="description" content="Página de venda do TCC Rapazes">
+    <meta name="author" content="Flaamer">
+</head>
+
+<body onload="calculo()">
+
+    <header>
+        <div class="center headerCenter">
+            <div class="header">
+                <img src="img/logo.png" alt="" id="logo">
+                <div class="containerHeader">
+                    <div>
+                        <img src="img/undraw_Firmware_jw6u.svg" alt="">
+                    </div>
+                    <div class="conteudoHeader">
+                        <h1>Já pensou em ter um braço robótico controlado pelo bluetooth do seu celular?</h1>
+                        <p>Saiba mais sobre como conseguir reproduzir um em casa vendo o TCC desses alunos da
+                            universidade
+                            de Paraiba</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main>
+        <section class="conteudoPrincipal">
+            <div class="center">
+                <div class="container">
+                    <div class="conteudoMeio">
+                        <h2>Qual o objetivo do TCC?</h2>
+                        <p>O objetivo desse TCC é para auxiliar estudantes de engenharia a um maior contato com robótica
+                            através do desenvolvimento de um <strong>braço robótico de seis eixos controlado via
+                                conexões Bluetooth</strong>
+                            por um aplicativo Android. O braço é projetado para levanttar uma carga de até 1kg.</p>
+
+                        <h2>Como foi feito</h2>
+                        <p>Para a realização desse projeto, foi utilizado estruturas mecanicas elaboradas no AutoCAD, um
+                            microcontrolador MSP430, o aplicativo MIT App Inventor e os conhecimentos ensinados em sala
+                            de aula.</p>
+                    </div>
+                </div>
+                <div class="form">
+                    <form onsubmit="enviarForm()" id="form">
+                        <h2>Baixe agora o PDF do TCC completo</h2>
+                        <label for="nome">Nome</label><br>
+                        <input type="text" name="nome" required id="nomeInput"><br>
+                        <label for="email">Email</label><br>
+                        <input type="email" name="email" required id="emailInput"
+                            pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$"><br>
+                        <label for="calculo" id="calculoLabel"></label><br>
+                        <input type="text" name="calculo" required id="calculoInput">
+                        <p>* Campos obrigatórios</p>
+                        <input type="submit" value="Enviar">
+                    </form>
+                </div>
+            </div>
+        </section>
+
+        <section class="conteudoSecundario">
+            <div class="center">
+                <h1>Tecnologias utilizadas no desenvolvimento:</h1>
+                <div class="tecnologias">
+                    <div class="box">
+                        <div class="imgBox">
+                            <img src="img/icons/android.png" alt="">
+                        </div>
+                        <h2>Android</h2>
+                    </div>
+                    <div class="box">
+                        <div class="imgBox">
+                            <img src="img/icons/bluetooth.png" alt="">
+                        </div>
+                        <h2>Bluetooth</h2>
+                    </div>
+                    <div class="box">
+                        <div class="imgBox">
+                            <img src="img/icons/Autocad.png" alt="">
+                        </div>
+                        <h2>AutoCAD</h2>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer>
+        <div class="sociais">
+            <a href="https://www.instagram.com/"><img src="img/icons/instagram 1.png" alt=""></a>
+            <a href="https://twitter.com"><img src="img/icons/twitter 1.png" alt=""></a>
+            <a href="https://www.youtube.com/"><img src="img/icons/youtube 1.png" alt=""></a>
+        </div>
+        <p>Copyright © 2021. Todos os direitos reservados.</p>
+    </footer>
+
+    <script src="js/scripts.js"></script>
+
+</body>
+
+</html>
