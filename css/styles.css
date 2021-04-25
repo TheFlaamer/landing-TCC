@@ -286,6 +286,9 @@ footer p {
     .tecnologias {
         width: 80%;
     }
+    footer {
+        height: auto;
+    }
 }
 @media screen and (max-width:794px){
     .tecnologias .box {
