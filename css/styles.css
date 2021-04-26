@@ -6,6 +6,7 @@
 
 html, body {
     height: 100%;
+    overflow-x: hidden;
 }
 .center{
     width: 100%;
@@ -56,7 +57,7 @@ header {
 }
 .conteudoHeader p {
     margin: 0 35px;
-    text-align: justify;
+    text-align: left;
     color: rgb(231, 231, 231);
     font-size: 22px;
     width: 85%;
@@ -127,6 +128,10 @@ header {
     color: #f3f3f3;
     outline: none;
     font-weight: bold;
+
+    appearance: none;
+    -moz-appearance: none;
+-webkit-appearance: none;
 }
 .form input[type="submit"]:hover, .form input[type="submit"]:focus {
     background-color: #002958;
